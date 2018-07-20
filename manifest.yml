@@ -1,0 +1,8 @@
+---
+applications:
+- name: foo-service
+  memory: 756M
+  instances: 1
+  path: target/foo-service-0.0.1-SNAPSHOT.jar
+  services:
+  - config-service
